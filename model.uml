@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_ZSyM8D7FEeuG0__IaV8WmA" name="">
+  <packagedElement xmi:type="uml:Class" xmi:id="_SYNfYE9LEeuuHbUKio_7XQ" name="francais" visibility="public">
+    <ownedAttribute xmi:id="_WCG-QE9LEeuuHbUKio_7XQ" name="force" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WCHlUE9LEeuuHbUKio_7XQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WCIMYE9LEeuuHbUKio_7XQ" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_XtBA4E9LEeuuHbUKio_7XQ" name="manger"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_UbbUUE9LEeuuHbUKio_7XQ" name="baguette" visibility="public">
+    <generalization xmi:id="_VBvtcE9LEeuuHbUKio_7XQ" general="_SYNfYE9LEeuuHbUKio_7XQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tI4skE9LEeuuHbUKio_7XQ" name="vin" visibility="public">
+    <generalization xmi:id="_0TLwEE9LEeuuHbUKio_7XQ" general="_SYNfYE9LEeuuHbUKio_7XQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_6bJz4E9LEeuuHbUKio_7XQ" name="fromage" visibility="public">
+    <generalization xmi:id="_9GXc8E9LEeuuHbUKio_7XQ" general="_SYNfYE9LEeuuHbUKio_7XQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_69wDwFpFEeuXytreUuwxFQ" name="GhostTree" visibility="public"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_BEzFEFpHEeuXytreUuwxFQ" name="audio/sound_manager.hpp" visibility="private"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Ec2wkFpIEeuXytreUuwxFQ" name="badguy/root.hpp" visibility="public">
+    <ownedAttribute xmi:id="_uD3vYF-4Eeu6bJMs9Pqxsw" name="Attaque (cible : player)" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uD3vYV-4Eeu6bJMs9Pqxsw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uD3vYl-4Eeu6bJMs9Pqxsw" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ABsXYFpJEeuXytreUuwxFQ" name="treewillowisp" visibility="public">
+    <ownedAttribute xmi:id="_fswf4F-4Eeu6bJMs9Pqxsw" name="Attaque (cible : player)" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fsxG8F-4Eeu6bJMs9Pqxsw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fsxG8V-4Eeu6bJMs9Pqxsw" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_UZA10FpJEeuXytreUuwxFQ" name="math/random.hpp" visibility="public"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_uwEVwF-yEeu6bJMs9Pqxsw" memberEnd="_uwEVwV-yEeu6bJMs9Pqxsw _uwEVxF-yEeu6bJMs9Pqxsw" navigableOwnedEnd="_uwEVwV-yEeu6bJMs9Pqxsw _uwEVxF-yEeu6bJMs9Pqxsw">
+    <ownedEnd xmi:id="_uwEVwV-yEeu6bJMs9Pqxsw" name="math/random.hpps" type="_UZA10FpJEeuXytreUuwxFQ" association="_uwEVwF-yEeu6bJMs9Pqxsw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uwEVwl-yEeu6bJMs9Pqxsw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uwEVw1-yEeu6bJMs9Pqxsw" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_uwEVxF-yEeu6bJMs9Pqxsw" name="badguy/root.hpps" type="_Ec2wkFpIEeuXytreUuwxFQ" association="_uwEVwF-yEeu6bJMs9Pqxsw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uwEVxV-yEeu6bJMs9Pqxsw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uwEVxl-yEeu6bJMs9Pqxsw" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_x6tFwF-yEeu6bJMs9Pqxsw" memberEnd="_x6tFwV-yEeu6bJMs9Pqxsw _x6tFxF-yEeu6bJMs9Pqxsw" navigableOwnedEnd="_x6tFwV-yEeu6bJMs9Pqxsw _x6tFxF-yEeu6bJMs9Pqxsw">
+    <ownedEnd xmi:id="_x6tFwV-yEeu6bJMs9Pqxsw" name="math/random.hpps" type="_UZA10FpJEeuXytreUuwxFQ" association="_x6tFwF-yEeu6bJMs9Pqxsw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_x6tFwl-yEeu6bJMs9Pqxsw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_x6tFw1-yEeu6bJMs9Pqxsw" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_x6tFxF-yEeu6bJMs9Pqxsw" name="treewillowisps" type="_ABsXYFpJEeuXytreUuwxFQ" association="_x6tFwF-yEeu6bJMs9Pqxsw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_x6tFxV-yEeu6bJMs9Pqxsw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_x6tFxl-yEeu6bJMs9Pqxsw" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_0uv6sF-yEeu6bJMs9Pqxsw" memberEnd="_0uv6sV-yEeu6bJMs9Pqxsw _0uv6tF-yEeu6bJMs9Pqxsw" navigableOwnedEnd="_0uv6sV-yEeu6bJMs9Pqxsw _0uv6tF-yEeu6bJMs9Pqxsw">
+    <ownedEnd xmi:id="_0uv6sV-yEeu6bJMs9Pqxsw" name="ghostTrees" type="_69wDwFpFEeuXytreUuwxFQ" association="_0uv6sF-yEeu6bJMs9Pqxsw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0uv6sl-yEeu6bJMs9Pqxsw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0uv6s1-yEeu6bJMs9Pqxsw" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_0uv6tF-yEeu6bJMs9Pqxsw" name="treewillowisps" type="_ABsXYFpJEeuXytreUuwxFQ" association="_0uv6sF-yEeu6bJMs9Pqxsw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0uv6tV-yEeu6bJMs9Pqxsw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0uv6tl-yEeu6bJMs9Pqxsw" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_1bS3oF-yEeu6bJMs9Pqxsw" memberEnd="_1bS3oV-yEeu6bJMs9Pqxsw _1bS3pF-yEeu6bJMs9Pqxsw" navigableOwnedEnd="_1bS3oV-yEeu6bJMs9Pqxsw _1bS3pF-yEeu6bJMs9Pqxsw">
+    <ownedEnd xmi:id="_1bS3oV-yEeu6bJMs9Pqxsw" name="ghostTrees" type="_69wDwFpFEeuXytreUuwxFQ" association="_1bS3oF-yEeu6bJMs9Pqxsw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1bS3ol-yEeu6bJMs9Pqxsw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1bS3o1-yEeu6bJMs9Pqxsw" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_1bS3pF-yEeu6bJMs9Pqxsw" name="audio/sound_manager.hpps" type="_BEzFEFpHEeuXytreUuwxFQ" association="_1bS3oF-yEeu6bJMs9Pqxsw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1bS3pV-yEeu6bJMs9Pqxsw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1bS3pl-yEeu6bJMs9Pqxsw" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_2C-isF-yEeu6bJMs9Pqxsw" memberEnd="_2C-isV-yEeu6bJMs9Pqxsw _2C-itF-yEeu6bJMs9Pqxsw" navigableOwnedEnd="_2C-isV-yEeu6bJMs9Pqxsw _2C-itF-yEeu6bJMs9Pqxsw">
+    <ownedEnd xmi:id="_2C-isV-yEeu6bJMs9Pqxsw" name="ghostTrees" type="_69wDwFpFEeuXytreUuwxFQ" association="_2C-isF-yEeu6bJMs9Pqxsw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2C-isl-yEeu6bJMs9Pqxsw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2C-is1-yEeu6bJMs9Pqxsw" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_2C-itF-yEeu6bJMs9Pqxsw" name="badguy/root.hpps" type="_Ec2wkFpIEeuXytreUuwxFQ" association="_2C-isF-yEeu6bJMs9Pqxsw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2C-itV-yEeu6bJMs9Pqxsw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2C-itl-yEeu6bJMs9Pqxsw" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_DIuJkF-2Eeu6bJMs9Pqxsw" name="object/lantern.hpp" visibility="public"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_CJjWIF-3Eeu6bJMs9Pqxsw" memberEnd="_CJjWIV-3Eeu6bJMs9Pqxsw _CJjWJF-3Eeu6bJMs9Pqxsw" navigableOwnedEnd="_CJjWIV-3Eeu6bJMs9Pqxsw _CJjWJF-3Eeu6bJMs9Pqxsw">
+    <ownedEnd xmi:id="_CJjWIV-3Eeu6bJMs9Pqxsw" name="ghostTrees" type="_69wDwFpFEeuXytreUuwxFQ" association="_CJjWIF-3Eeu6bJMs9Pqxsw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CJjWIl-3Eeu6bJMs9Pqxsw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CJjWI1-3Eeu6bJMs9Pqxsw" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_CJjWJF-3Eeu6bJMs9Pqxsw" name="object/lantern.hpps" type="_DIuJkF-2Eeu6bJMs9Pqxsw" association="_CJjWIF-3Eeu6bJMs9Pqxsw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CJjWJV-3Eeu6bJMs9Pqxsw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CJjWJl-3Eeu6bJMs9Pqxsw" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_RvXX8F-4Eeu6bJMs9Pqxsw" name="object/player.hpp" visibility="public"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_VPnLkF-4Eeu6bJMs9Pqxsw" memberEnd="_VPnLkV-4Eeu6bJMs9Pqxsw _VPnLlF-4Eeu6bJMs9Pqxsw" navigableOwnedEnd="_VPnLkV-4Eeu6bJMs9Pqxsw _VPnLlF-4Eeu6bJMs9Pqxsw">
+    <ownedEnd xmi:id="_VPnLkV-4Eeu6bJMs9Pqxsw" name="ghostTrees" type="_69wDwFpFEeuXytreUuwxFQ" association="_VPnLkF-4Eeu6bJMs9Pqxsw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VPnLkl-4Eeu6bJMs9Pqxsw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VPnLk1-4Eeu6bJMs9Pqxsw" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_VPnLlF-4Eeu6bJMs9Pqxsw" name="object/player.hpps" type="_RvXX8F-4Eeu6bJMs9Pqxsw" association="_VPnLkF-4Eeu6bJMs9Pqxsw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VPnLlV-4Eeu6bJMs9Pqxsw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VPnLll-4Eeu6bJMs9Pqxsw" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_C8eV8F-5Eeu6bJMs9Pqxsw" name="sprite/sprite.hpp" visibility="public"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_EW0NAF-5Eeu6bJMs9Pqxsw" memberEnd="_EW0NAV-5Eeu6bJMs9Pqxsw _EW0NBF-5Eeu6bJMs9Pqxsw" navigableOwnedEnd="_EW0NAV-5Eeu6bJMs9Pqxsw _EW0NBF-5Eeu6bJMs9Pqxsw">
+    <ownedEnd xmi:id="_EW0NAV-5Eeu6bJMs9Pqxsw" name="ghostTrees" type="_69wDwFpFEeuXytreUuwxFQ" association="_EW0NAF-5Eeu6bJMs9Pqxsw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_EW0NAl-5Eeu6bJMs9Pqxsw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EW0NA1-5Eeu6bJMs9Pqxsw" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_EW0NBF-5Eeu6bJMs9Pqxsw" name="sprite/sprite.hpps" type="_C8eV8F-5Eeu6bJMs9Pqxsw" association="_EW0NAF-5Eeu6bJMs9Pqxsw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_EW0NBV-5Eeu6bJMs9Pqxsw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EW0NBl-5Eeu6bJMs9Pqxsw" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_9TvWYF-5Eeu6bJMs9Pqxsw" name="sprite/sprite_manager.hpp" visibility="public"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="__KZWAF-5Eeu6bJMs9Pqxsw" memberEnd="__KZWAV-5Eeu6bJMs9Pqxsw __KZWBF-5Eeu6bJMs9Pqxsw" navigableOwnedEnd="__KZWAV-5Eeu6bJMs9Pqxsw __KZWBF-5Eeu6bJMs9Pqxsw">
+    <ownedEnd xmi:id="__KZWAV-5Eeu6bJMs9Pqxsw" name="sprite/sprite_manager.hpps" type="_9TvWYF-5Eeu6bJMs9Pqxsw" association="__KZWAF-5Eeu6bJMs9Pqxsw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__KZWAl-5Eeu6bJMs9Pqxsw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__KZWA1-5Eeu6bJMs9Pqxsw" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="__KZWBF-5Eeu6bJMs9Pqxsw" name="sprite/sprite.hpps" type="_C8eV8F-5Eeu6bJMs9Pqxsw" association="__KZWAF-5Eeu6bJMs9Pqxsw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__KZWBV-5Eeu6bJMs9Pqxsw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__KZWBl-5Eeu6bJMs9Pqxsw" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ATLjAF-6Eeu6bJMs9Pqxsw" memberEnd="_ATLjAV-6Eeu6bJMs9Pqxsw _ATLjBF-6Eeu6bJMs9Pqxsw" navigableOwnedEnd="_ATLjAV-6Eeu6bJMs9Pqxsw _ATLjBF-6Eeu6bJMs9Pqxsw">
+    <ownedEnd xmi:id="_ATLjAV-6Eeu6bJMs9Pqxsw" name="sprite/sprite_manager.hpps" type="_9TvWYF-5Eeu6bJMs9Pqxsw" association="_ATLjAF-6Eeu6bJMs9Pqxsw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ATLjAl-6Eeu6bJMs9Pqxsw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ATLjA1-6Eeu6bJMs9Pqxsw" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_ATLjBF-6Eeu6bJMs9Pqxsw" name="ghostTrees" type="_69wDwFpFEeuXytreUuwxFQ" association="_ATLjAF-6Eeu6bJMs9Pqxsw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ATLjBV-6Eeu6bJMs9Pqxsw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ATLjBl-6Eeu6bJMs9Pqxsw" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_BI5DAF-6Eeu6bJMs9Pqxsw" memberEnd="_BI5DAV-6Eeu6bJMs9Pqxsw _BI5DBF-6Eeu6bJMs9Pqxsw" navigableOwnedEnd="_BI5DAV-6Eeu6bJMs9Pqxsw _BI5DBF-6Eeu6bJMs9Pqxsw">
+    <ownedEnd xmi:id="_BI5DAV-6Eeu6bJMs9Pqxsw" name="math/random.hpps" type="_UZA10FpJEeuXytreUuwxFQ" association="_BI5DAF-6Eeu6bJMs9Pqxsw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BI5DAl-6Eeu6bJMs9Pqxsw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BI5DA1-6Eeu6bJMs9Pqxsw" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_BI5DBF-6Eeu6bJMs9Pqxsw" name="ghostTrees" type="_69wDwFpFEeuXytreUuwxFQ" association="_BI5DAF-6Eeu6bJMs9Pqxsw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BI5DBV-6Eeu6bJMs9Pqxsw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BI5DBl-6Eeu6bJMs9Pqxsw" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_8FA_0F_BEeu6bJMs9Pqxsw" name="GhostTree" visibility="public">
+    <generalization xmi:id="__4ZK0F_BEeu6bJMs9Pqxsw" general="_-VLroF_BEeu6bJMs9Pqxsw"/>
+    <ownedAttribute xmi:id="_Jg-OoF_CEeu6bJMs9Pqxsw" name="willowspeed" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Jg-OoV_CEeu6bJMs9Pqxsw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Jg-Ool_CEeu6bJMs9Pqxsw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_NQEWkF_CEeu6bJMs9Pqxsw" name="willoRadius" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NQE9oF_CEeu6bJMs9Pqxsw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NQE9oV_CEeu6bJMs9Pqxsw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_yGTpEF_DEeu6bJMs9Pqxsw" name="willo_spawn_y" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yGTpEV_DEeu6bJMs9Pqxsw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yGTpEl_DEeu6bJMs9Pqxsw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_zxWOkF_DEeu6bJMs9Pqxsw" name="willowisp_timer" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zxWOkV_DEeu6bJMs9Pqxsw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zxWOkl_DEeu6bJMs9Pqxsw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_3MwlgF_DEeu6bJMs9Pqxsw" name="willo_color" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3MxMkF_DEeu6bJMs9Pqxsw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3MxMkV_DEeu6bJMs9Pqxsw" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_ExDi4F_CEeu6bJMs9Pqxsw" name="is_flammable"/>
+    <ownedOperation xmi:id="_TD12kF_DEeu6bJMs9Pqxsw" name="is_freezable"/>
+    <ownedOperation xmi:id="_gFlOkF_DEeu6bJMs9Pqxsw" name="collides"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_-VLroF_BEeu6bJMs9Pqxsw" name="badguy" visibility="public">
+    <generalization xmi:id="_m8kpoF_FEeu6bJMs9Pqxsw" general="_gLsTEF_CEeu6bJMs9Pqxsw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_TBaqIF_CEeu6bJMs9Pqxsw" name="Lantern" visibility="public">
+    <ownedAttribute xmi:id="_ARMlAF_FEeu6bJMs9Pqxsw" name="get_color" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ARMlAV_FEeu6bJMs9Pqxsw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ARMlAl_FEeu6bJMs9Pqxsw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_BxesAF_FEeu6bJMs9Pqxsw" name="add_color" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BxesAV_FEeu6bJMs9Pqxsw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BxesAl_FEeu6bJMs9Pqxsw" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_iS8okF_EEeu6bJMs9Pqxsw" name="grab"/>
+    <ownedOperation xmi:id="_nS7JkF_EEeu6bJMs9Pqxsw" name="ungrab"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_aMl3YF_CEeu6bJMs9Pqxsw" name="suck_lantern" memberEnd="_aMl3YV_CEeu6bJMs9Pqxsw _aMmecl_CEeu6bJMs9Pqxsw" navigableOwnedEnd="_aMmecl_CEeu6bJMs9Pqxsw">
+    <ownedEnd xmi:id="_aMl3YV_CEeu6bJMs9Pqxsw" name="ghostTrees" type="_8FA_0F_BEeu6bJMs9Pqxsw" association="_aMl3YF_CEeu6bJMs9Pqxsw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aMmecF_CEeu6bJMs9Pqxsw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aMmecV_CEeu6bJMs9Pqxsw" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_aMmecl_CEeu6bJMs9Pqxsw" name="lanterns" type="_TBaqIF_CEeu6bJMs9Pqxsw" aggregation="shared" association="_aMl3YF_CEeu6bJMs9Pqxsw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aMnFgF_CEeu6bJMs9Pqxsw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aMnFgV_CEeu6bJMs9Pqxsw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_gLsTEF_CEeu6bJMs9Pqxsw" name="TreeWillOWisp" visibility="public">
+    <ownedAttribute xmi:id="_Hg0wQF_MEeu6bJMs9Pqxsw" name="m_flyspeed" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Hg1XUF_MEeu6bJMs9Pqxsw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Hg1XUV_MEeu6bJMs9Pqxsw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Mw0qQF_MEeu6bJMs9Pqxsw" name="m_track_range" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Mw1RUF_MEeu6bJMs9Pqxsw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Mw1RUV_MEeu6bJMs9Pqxsw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Sy9L0F_MEeu6bJMs9Pqxsw" name="m_vanish_range" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Sy9L0V_MEeu6bJMs9Pqxsw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Sy9L0l_MEeu6bJMs9Pqxsw" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_pmEXQF_MEeu6bJMs9Pqxsw" name="is_flammable"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_j56RQF_CEeu6bJMs9Pqxsw" name="ghostTreesToTreeWillOWisps" memberEnd="_j56RQV_CEeu6bJMs9Pqxsw _j564UF_CEeu6bJMs9Pqxsw" navigableOwnedEnd="_j564UF_CEeu6bJMs9Pqxsw">
+    <ownedEnd xmi:id="_j56RQV_CEeu6bJMs9Pqxsw" name="ghostTrees" type="_8FA_0F_BEeu6bJMs9Pqxsw" association="_j56RQF_CEeu6bJMs9Pqxsw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_j56RQl_CEeu6bJMs9Pqxsw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_j56RQ1_CEeu6bJMs9Pqxsw" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_j564UF_CEeu6bJMs9Pqxsw" name="treeWillOWisps" type="_gLsTEF_CEeu6bJMs9Pqxsw" aggregation="shared" association="_j56RQF_CEeu6bJMs9Pqxsw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_j564UV_CEeu6bJMs9Pqxsw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_j564Ul_CEeu6bJMs9Pqxsw" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ohfZAF_FEeu6bJMs9Pqxsw" name="object" visibility="public">
+    <generalization xmi:id="_vAAUkF_FEeu6bJMs9Pqxsw" general="_TBaqIF_CEeu6bJMs9Pqxsw"/>
+  </packagedElement>
+</uml:Model>
